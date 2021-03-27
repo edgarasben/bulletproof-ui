@@ -22,6 +22,10 @@ function App() {
         Like
       </Button>
       <input className='border-gray-400 rounded-sm' type='text' />
+      <input className='disabled:opacity-25 border' />
+      <button className='md:dark:disabled:focus:hover:bg-gray-400'>
+        asdasdas
+      </button>
     </div>
   )
 }
