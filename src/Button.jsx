@@ -8,8 +8,6 @@ function Button(props) {
   }
   const whichType = types[props.buttonType]
 
-  console.log(whichType)
-
   return (
     <button
       className={`flex flex-row font-semibold py-2 px-4 rounded-md text-base items-center transition antialiased transform-gpu active:scale-97 ${whichType} ${props.className}`}
